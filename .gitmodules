@@ -1,0 +1,24 @@
+[submodule "BlackBarLabs.Security.Authorization"]
+	path = BlackBarLabs.Security.Authorization
+	url = git@github.com:blackbarlabs/BlackBarLabs.Security.Authorization.git
+[submodule "BlackBarLabs.Security.CredentialProvider.ImplicitCreation"]
+	path = BlackBarLabs.Security.CredentialProvider.ImplicitCreation
+	url = git@github.com:blackbarlabs/BlackBarLabs.Security.CredentialProvider.ImplicitCreation.git
+[submodule "BlackBarLabs.Security.CredentialProvider"]
+	path = BlackBarLabs.Security.CredentialProvider
+	url = git@github.com:blackbarlabs/BlackBarLabs.Security.CredentialProvider.git
+[submodule "BlackBarLabs.Security.SessionServer.Persistence.Azure"]
+	path = BlackBarLabs.Security.SessionServer.Persistence.Azure
+	url = git@github.com:blackbarlabs/BlackBarLabs.Security.SessionServer.Persistence.Azure.git
+[submodule "BlackBarLabs.Security.CredentialProvider.Voucher"]
+	path = BlackBarLabs.Security.CredentialProvider.Voucher
+	url = git@github.com:blackbarlabs/BlackBarLabs.Security.CredentialProvider.Voucher.git
+[submodule "BlackBarLabs.Security.CredentialProvider.Facebook"]
+	path = BlackBarLabs.Security.CredentialProvider.Facebook
+	url = git@github.com:blackbarlabs/BlackBarLabs.Security.CredentialProvider.Facebook.git
+[submodule "BlackBarLabs.Security.CredentialProvider.OpenIdConnect"]
+	path = BlackBarLabs.Security.CredentialProvider.OpenIdConnect
+	url = git@github.com:blackbarlabs/BlackBarLabs.Security.CredentialProvider.OpenIdConnect.git
+[submodule "BlackBarLabs.Security.SessionServer.Persistence"]
+	path = BlackBarLabs.Security.SessionServer.Persistence
+	url = git@github.com:blackbarlabs/BlackBarLabs.Security.SessionServer.Persistence.git
