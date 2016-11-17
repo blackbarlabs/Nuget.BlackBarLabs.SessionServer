@@ -15,7 +15,6 @@ namespace BlackBarLabs.Security.AuthorizationServer.API.Tests
         {
             await TestSession.StartAsync(async (testSession) =>
             {
-                var authClient = new AuthorizationClient.MockContext();
                 //TODO: SessionBuilder testSession.AddRequestPropertyFetch(AuthorizationClient.ServicePropertyDefinitions.AuthorizationClient, authClient);
 
                 // Create session, auth, and credential resources
@@ -64,7 +63,6 @@ namespace BlackBarLabs.Security.AuthorizationServer.API.Tests
         {
             await TestSession.StartAsync(async (testSession) =>
             {
-                var authClient = new AuthorizationClient.MockContext();
                 //TODO: SessionBuilder testSession.AddRequestPropertyFetch(AuthorizationClient.ServicePropertyDefinitions.AuthorizationClient, authClient);
 
                 // Create Auth resource
@@ -81,7 +79,6 @@ namespace BlackBarLabs.Security.AuthorizationServer.API.Tests
         {
             await TestSession.StartAsync(async (testSession) =>
             {
-                var authClient = new AuthorizationClient.MockContext();
                 //TODO: SessionBuilder testSession.AddRequestPropertyFetch(AuthorizationClient.ServicePropertyDefinitions.AuthorizationClient, authClient);
 
                 var auth = await testSession.CreateAuthorizationAsync();

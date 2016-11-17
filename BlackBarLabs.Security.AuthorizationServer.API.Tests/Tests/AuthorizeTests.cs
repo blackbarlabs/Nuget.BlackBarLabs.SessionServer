@@ -23,7 +23,8 @@ namespace BlackBarLabs.Security.AuthorizationServer.API.Tests
                         // Create Auth resource
                         await testSession.CreateAuthorizationAsync();
                         var scope = new Uri($"urn:example.com/{Guid.NewGuid().ToString("N")}");
-                        testSession.CreateAuthorizeAsync(Guid.NewGuid().ToString("N"), scope, publicKey);
+                        await testSession.CreateAuthorizeAsync(Guid.NewGuid().ToString("N"), scope, publicKey,
+                            (response, resource) => response);
                     });
                 });
             

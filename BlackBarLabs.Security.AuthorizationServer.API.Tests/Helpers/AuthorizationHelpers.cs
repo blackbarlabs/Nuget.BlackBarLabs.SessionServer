@@ -5,7 +5,6 @@ using System.Net;
 using System.Threading.Tasks;
 
 using BlackBarLabs.Api.Tests;
-using BlackBarLabs.Security.Authorization;
 using BlackBarLabs.Security.AuthorizationServer.API.Controllers;
 using BlackBarLabs.Security.CredentialProvider.Facebook.Tests;
 
