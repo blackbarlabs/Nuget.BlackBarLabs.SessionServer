@@ -22,3 +22,6 @@
 [submodule "BlackBarLabs.Security.SessionServer.Persistence"]
 	path = BlackBarLabs.Security.SessionServer.Persistence
 	url = git@github.com:blackbarlabs/BlackBarLabs.Security.SessionServer.Persistence.git
+[submodule "BlackBarLabs.Security.SessionServer"]
+	path = BlackBarLabs.Security.SessionServer
+	url = git@github.com:blackbarlabs/BlackBarLabs.Security.SessionServer.git
