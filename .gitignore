@@ -245,3 +245,5 @@ ModelManifest.xml
 **/App.[Dd]ebug.[Cc]onfig
 **/App.Release.config
 
+/lib
+*.nupkg.bak
